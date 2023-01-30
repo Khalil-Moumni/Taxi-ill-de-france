@@ -1,0 +1,185 @@
+:root{
+    --main-color:#212529;
+}
+@media (max-width: 40.625em){
+
+    .nav-link{
+        flex-direction: column;
+        align-items: center;
+        padding: 0.5rem 0;
+        display: inline-flex;
+        cursor: pointer;
+    }
+}
+
+.navbar-brand {
+    color: yellow;
+}
+.nav-link{
+    color: yellow;
+}
+.nav-link:hover{
+    color: white;
+}
+
+.hero{
+    background: url(Assests/hero2e.jpg) no-repeat center center /cover;
+    height: 500px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(238, 238, 230);
+}
+
+.banner {
+    top: 200px;
+    left: 260px;
+    display: flex;
+    max-width: 800px;
+    color: white;   
+}
+
+.container img{
+    height: 150px;
+    padding-top: 20px;
+    padding-left: 120px;
+    
+}
+.title{
+    
+    width: 300px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-left: 60px;
+}
+.hero-title{
+    font-family: 'Andika', sans-serif;
+    font-family: 'Lobster', cursive;
+    color: rgb(255, 254, 254);
+    
+}
+.hero-title span{
+    color: yellow;
+}
+@media (min-width:785px){
+    .title{
+        text-align: center;
+
+    }
+}
+.title p{
+    font-family: 'Andika', sans-serif;
+    font-family: 'Lobster', cursive;
+    color: rgb(255, 254, 254);
+    padding-top: 30px;
+    text-align: center;
+}
+.banner p{
+    max-width: 400px;
+    text-align: center;
+    padding-top: 30px;
+    color: rgb(255, 255, 255);
+}
+
+section {
+    padding: 50px 0;
+    position: relative;
+}
+
+.section-color{
+    background-color: #212529;
+    color: white;
+    font-family: 'Andika', sans-serif;
+    font-family: 'Lobster', cursive;
+}
+.section-title span{
+    color: yellow; 
+    font-size: 45px;  
+}
+
+.down-arrow{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 120px;
+}
+.row {
+    align-items: center;
+    justify-content: center;
+}
+.article {
+    text-align: center;
+    margin: 50px 50px;
+    padding: 20px 20px;
+    transition: all .2s ease-in;
+}
+.article:hover {
+    scale: 1.1;
+    box-shadow: 0 0 7px 0 #212529;
+}
+
+.article .article-icon{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.btn-white {
+    border: 2px solid black;
+    color: inherit;
+    
+}
+
+.service-pmr {
+    text-align: center;
+    margin: 50px 50px;
+    padding: 20px 20px;
+    transition: all .2s ease-in;
+}
+.service-pmr img{
+    height: 200px;
+    padding-left: 50px;
+}
+.carte-secteur img{
+    margin: 0 auto;
+    margin-bottom: 5px;
+    width: 389px;
+    height: 261px;
+    padding-left: 8px;
+}
+.row span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-style: oblique;
+}
+
+.contact-form{
+    margin: 0 auto;
+}
+.contact-form .form-control{
+    background: rgb(247, 245, 245);
+    border: none;
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+.btn-primary{
+    background-color: #212529;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    text-transform: uppercase;
+    font-family: 'Caramel', cursive;
+}
+.btn-primary:hover{
+    background: linear-gradient(135deg, #dc0606ca, #05073a);
+    border: 1px solid black;
+}
+.footer{
+    background-color: #212529;
+}
+.footer p{
+    padding: 50px 0;
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+}

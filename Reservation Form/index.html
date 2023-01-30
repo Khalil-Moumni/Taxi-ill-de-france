@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="heading"><span>Réservation</span></div>
+        <form
+        action="https://formspree.io/f/mwkjpzog"
+        method="POST">
+        <div class="card-details">
+          <div class="card-box">
+            <span class="details">Nom Complet</span>
+            <input type="text" placeholder="Nom Complet" name="nom" required>
+          </div>
+          <div class="card-box">
+            <span class="details">Prénom</span>
+            <input type="text" placeholder="Prénom" name="Prénom" required>
+          </div>
+          <div class="card-box">
+            <span class="details">E-mail</span>
+            <input type="email" placeholder="E-mail" name="E-mail" required>
+          </div>
+          <div class="card-box">
+            <span class="details">Telephone</span>
+            <input type="phone" placeholder="Télephone" name="Télephone" required>
+          </div>
+          <div class="card-box">
+            <span class="details">Adresse de Depart</span>
+            <input type="text" placeholder="Adresse de Depart" name="Adresse de Depart" required>
+          </div>
+          <div class="card-box">
+            <span class="details">Ville</span>
+            <input type="text" placeholder="Ville" name="Ville" required>
+          </div>
+          <div class="card-box">
+            <span class="details">Adresse D'arrivée</span>
+            <input type="text" placeholder="Adresse D'arrivée" name="Adresse D'arrivée" required>
+          </div>
+          <div class="card-box">
+            <span class="details">Ville</span>
+            <input type="text" placeholder="ville" name="ville D'arrivée" required> 
+          </div>
+          <div class="card-box">
+            <span class="details">Date</span>
+            <input type="date" placeholder="Date" name="date" required>
+            <span class="details">Heure </span>
+            <input type="time" placeholder="Heure" name="Heure" required>
+          </div>
+          <div class="card-box">
+            <span class="details">Trajet</span>
+            <input type="text" placeholder="Trajet"name="Trajet"  required>
+          </div> 
+        </div>
+        <div class="button">
+          <input type="submit" value="Register">
+        </div>
+      </form>
+    </div> 
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
